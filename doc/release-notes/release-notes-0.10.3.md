@@ -52,7 +52,7 @@ Fix buffer overflow in bundled upnp
 Bundled miniupnpc was updated to 1.9.20151008. This fixes a buffer overflow in
 the XML parser during initial network discovery.
 
-Details can be found here: http://talosintel.com/reports/TALOS-2015-0035/
+Details can be found here: https://www.talosintelligence.com/reports/TALOS-2015-0035/
 
 This applies to the distributed executables only, not when building from source or
 using distribution provided packages.
@@ -94,7 +94,7 @@ only eliminates the cheap and irritating DOS attack.
 
 [1] On the Malleability of Bitcoin Transactions
 Marcin Andrychowicz, Stefan Dziembowski, Daniel Malinowski, Łukasz Mazurek
-http://fc15.ifca.ai/preproceedings/bitcoin/paper_9.pdf
+https://fc15.ifca.ai/preproceedings/bitcoin/paper_9.pdf
 
 Minimum relay fee default increase
 -----------------------------------
