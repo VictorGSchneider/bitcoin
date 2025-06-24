@@ -32,7 +32,7 @@ bool ParseHDKeypath(const std::string& keypath_str, std::vector<uint32_t>& keypa
                 return false;
             }
             path |= 0x80000000;
-            item = item.substr(0, item.size() - 1); // Drop the last character which is the hardened tick
+            item.pop_back(); // Drop the last character which is the hardened tick
         }
 
         // Ensure this is only numbers
